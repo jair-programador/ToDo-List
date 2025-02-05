@@ -17,7 +17,7 @@ Este é um aplicativo simples de lista de tarefas, onde os usuários podem adici
 
 ## 📸 Prévia do Projeto
 
-![Prévia do Projeto](preview.png)
+![Prévia do Projeto](preview.jpg)
 
 ## 🚩 Como rodar o projeto  
 1. Clone este repositório:  
