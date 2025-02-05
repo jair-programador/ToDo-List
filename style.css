@@ -46,3 +46,32 @@ li {
     text-decoration: line-through;
     color: gray;
 }
+editing {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+}
+body.light-mode {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f9;
+}
+
+button {
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff2e2e;
+}
+.prioridade-baixa { background-color: #d4edda; }   /* Verde claro */
+.prioridade-media { background-color: #fff3cd; }   /* Amarelo claro */
+.prioridade-alta  { background-color: #f8d7da; }   /* Vermelho claro */

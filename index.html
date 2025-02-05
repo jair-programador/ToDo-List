@@ -7,10 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="text" id="search" placeholder="Pesquisar tarefas..." oninput="filterTasks()">
     <h1>Minha Lista de Tarefas</h1>
     <input type="text" id="new-task" placeholder="Digite uma nova tarefa...">
+    <input type="text" id="task-input" placeholder="Nova tarefa">  
+    <input type="date" id="deadline-input">  
+    <button onclick="addTask()">Adicionar Tarefa</button>  
     <button onclick="addTask()">Adicionar</button>
+    <button id="toggle-theme">Mudar Tema</button>
     <ul id="task-list"></ul>
+    <select id="category-input">
+        <option value="Trabalho">Trabalho</option>
+        <option value="Estudos">Estudos</option>
+        <option value="Pessoal">Pessoal</option>
+    </select>
+    <select id="priority-input">
+        <option value="baixa">Baixa</option>
+        <option value="media">Média</option>
+        <option value="alta">Alta</option>
+    </select>
 
     <script src="script.js"></script>
 </body>
